@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body{
+    margin:0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.about{
+    margin-right: 20px;
+}
+
+.main_title_box{
+    margin: 0px;
+    padding: 0px;
+    height: 80vh;
+    background-image: url(./Assets/architecture-australia-backlit-634010.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_title{
+    font: 200 8vw/0.8 'Great Vibes', Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+
+.cities_box{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: deepskyblue;
+}
+
+.city{
+    height: 230px;
+    width: 230px;
+    background-color: wheat;
+    margin: 20px;
+}
+
+.toronto{
+    background-image: url(./Assets/toronto-1.jpg);
+    background-size: cover;
+}
+
+.ottawa{
+    background-image: url(./Assets/OTTAWA.jpg);
+    background-size: cover;
+
+}
+
+.vancouver{
+    background-image: url(./Assets/vancouver.jpg);
+    background-size: cover;
+}
+
+.newYork{
+    background-image: url(./Assets/New-York-City-900.jpg);
+    background-size: cover;
+}
+
+.losAngeles{
+    background-image: url(./Assets/LA_001.jpg);
+    background-size: cover;
+}
+
+.honolulu{
+    background-image: url(./Assets/honolulu.jpg);
+    background-size: cover;
+}
+
+.mexicoCity{
+    background-image: url(./Assets/Mexico_City_.0.0.0.0.jpg);
+    background-size: cover;
+}
