@@ -42,7 +42,6 @@ header{
 }
 
 .cities_box{
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -83,12 +82,12 @@ header{
 }
 
 .back{
-    background-color: violet;
+    background-color: lightblue;
     transform: rotateY(180deg);
     font-size: 20px;
 }
 
-.date, .time{
+.date, .time, .weather, .temp, .status, .cloud{
     display: flex;
     margin: 8px;
 }

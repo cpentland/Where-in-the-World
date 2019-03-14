@@ -9,9 +9,9 @@
     <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <header>
+    <!-- <header>
         <p class="about">About This Page</p>
-    </header>
+    </header> -->
     <div class="main_title_box">
         <h1 class="main_title">Where in the World</h1>
     </div>
@@ -21,12 +21,15 @@
         <div class="city-container">
             <div class="flipper">
                 <div class="toronto-front front">
-
                 </div>
                 <div class="toronto-back back">
                     <div class="date"> Date:<p id="toronto_date"> </p> </div>
                     <div class="time">Time:<p id="toronto_time"> </p> </div>
-
+                    
+                    <div class="weather">Weather:</div>
+                    <div class="temp"><p id="toronto_temp"></p>&#160celcius</div>
+                    <p class="status" id="toronto_status"></p>
+                    <div class="cloud"><p id="toronto_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>Toronto, Canada</p>
@@ -39,9 +42,13 @@
 
                 </div>
                 <div class="ottawa-back back">
-                        <div class="date"> Date:<p id="ottawa_date"> </p> </div>
-                        <div class="time">Time:<p id="ottawa_time"> </p> </div>
+                    <div class="date"> Date:<p id="ottawa_date"> </p> </div>
+                    <div class="time">Time:<p id="ottawa_time"> </p> </div>
 
+                    <div class="weather">Weather:</div>
+                    <div class="temp"><p id="ottawa_temp"></p>&#160celcius</div>
+                    <p class="status" id="ottawa_status"></p>
+                    <div class="cloud"><p id="ottawa_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>Ottawa, Canada</p>
@@ -54,8 +61,13 @@
 
                 </div>
                 <div class="vancouver-back back">
-                        <div class="date"> Date:<p id="vancouver_date"> </p> </div>
-                        <div class="time">Time:<p id="vancouver_time"> </p> </div>
+                    <div class="date"> Date:<p id="vancouver_date"> </p> </div>
+                    <div class="time">Time:<p id="vancouver_time"> </p> </div>
+                        
+                    <div class="weather">Weather:</div>
+                    <div class="temp"><p id="vancouver_temp"></p>&#160celcius</div>
+                    <p class="status" id="vancouver_status"></p>
+                    <div class="cloud"><p id="vancouver_cloud"></p>% cloud coverage</div>
 
                 </div>
             </div>
@@ -69,9 +81,13 @@
 
                 </div>
                 <div class="newYork-back back">
-                        <div class="date"> Date:<p id="newYork_date"> </p> </div>
-                        <div class="time">Time:<p id="newYork_time"> </p> </div>
+                    <div class="date"> Date:<p id="newYork_date"> </p> </div>
+                    <div class="time">Time:<p id="newYork_time"> </p> </div>
 
+                    <div class="weather">Weather:</div>
+                    <div class="temp"><p id="newYork_temp"></p>&#160celcius</div>
+                    <p class="status" id="newYork_status"></p>
+                    <div class="cloud"><p id="newYork_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>New York, USA</p>
@@ -84,9 +100,13 @@
 
                 </div>
                 <div class="losAngeles-back back">
-                        <div class="date"> Date:<p id="losAngeles_date"> </p> </div>
-                        <div class="time">Time:<p id="losAngeles_time"> </p> </div>
+                    <div class="date"> Date:<p id="losAngeles_date"> </p> </div>
+                    <div class="time">Time:<p id="losAngeles_time"> </p> </div>
 
+                    <div class="weather">Weather:</div>
+                    <div class="temp"><p id="losAngeles_temp"></p>&#160celcius</div>
+                    <p class="status" id="losAngeles_status"></p>
+                    <div class="cloud"><p id="losAngeles_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>Los Angeles, USA</p>
@@ -102,6 +122,10 @@
                         <div class="date"> Date:<p id="honolulu_date"> </p> </div>
                         <div class="time">Time:<p id="honolulu_time"> </p> </div>
 
+                        <div class="weather">Weather:</div>
+                        <div class="temp"><p id="honolulu_temp"></p>&#160celcius</div>
+                        <p class="status" id="honolulu_status"></p>
+                        <div class="cloud"><p id="honolulu_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>Honolulu, USA</p>
@@ -117,6 +141,10 @@
                         <div class="date"> Date:<p id="mexicoCity_date"> </p> </div>
                         <div class="time">Time:<p id="mexicoCity_time"> </p> </div>
 
+                        <div class="weather">Weather:</div>
+                        <div class="temp"><p id="mexicoCity_temp"></p>&#160celcius</div>
+                        <p class="status" id="mexicoCity_status"></p>
+                        <div class="cloud"><p id="mexicoCity_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>Mexico City, Mexico</p>
@@ -132,6 +160,10 @@
                         <div class="date"> Date:<p id="reykjavik_date"> </p> </div>
                         <div class="time">Time:<p id="reykjavik_time"> </p> </div>
 
+                        <div class="weather">Weather:</div>
+                        <div class="temp"><p id="reykjavik_temp"></p>&#160celcius</div>
+                        <p class="status" id="reykjavik_status"></p>
+                        <div class="cloud"><p id="reykjavik_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>Reykjavik, Iceland</p>
@@ -147,6 +179,10 @@
                         <div class="date"> Date:<p id="london_date"> </p> </div>
                         <div class="time">Time:<p id="london_time"> </p> </div>
 
+                        <div class="weather">Weather:</div>
+                        <div class="temp"><p id="london_temp"></p>&#160celcius</div>
+                        <p class="status" id="london_status"></p>
+                        <div class="cloud"><p id="london_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>London, England</p>
@@ -162,6 +198,10 @@
                         <div class="date"> Date:<p id="paris_date"> </p> </div>
                         <div class="time">Time:<p id="paris_time"> </p> </div>
 
+                        <div class="weather">Weather:</div>
+                        <div class="temp"><p id="paris_temp"></p>&#160celcius</div>
+                        <p class="status" id="paris_status"></p>
+                        <div class="cloud"><p id="paris_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>Paris, France</p>
@@ -177,6 +217,10 @@
                         <div class="date"> Date:<p id="berlin_date"> </p> </div>
                         <div class="time">Time:<p id="berlin_time"> </p> </div>
 
+                        <div class="weather">Weather:</div>
+                        <div class="temp"><p id="berlin_temp"></p>&#160celcius</div>
+                        <p class="status" id="berlin_status"></p>
+                        <div class="cloud"><p id="berlin_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>Berlin, Germany</p>
@@ -192,6 +236,10 @@
                         <div class="date"> Date:<p id="barcelona_date"> </p> </div>
                         <div class="time">Time:<p id="barcelona_time"> </p> </div>
 
+                        <div class="weather">Weather:</div>
+                        <div class="temp"><p id="barcelona_temp"></p>&#160celcius</div>
+                        <p class="status" id="barcelona_status"></p>
+                        <div class="cloud"><p id="barcelona_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>Barcelona, Spain</p>
@@ -206,9 +254,13 @@
                         <div class="date"> Date:<p id="rome_date"> </p> </div>
                         <div class="time">Time:<p id="rome_time"> </p> </div>
 
+                        <div class="weather">Weather:</div>
+                        <div class="temp"><p id="rome_temp"></p>&#160celcius</div>
+                        <p class="status" id="rome_status"></p>
+                        <div class="cloud"><p id="rome_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
-            <p>Rome, Grece</p>
+            <p>Rome, Italy</p>
         </div>
 
 
@@ -221,6 +273,10 @@
                         <div class="date"> Date:<p id="dubai_date"> </p> </div>
                         <div class="time">Time:<p id="dubai_time"> </p> </div>
 
+                        <div class="weather">Weather:</div>
+                        <div class="temp"><p id="dubai_temp"></p>&#160celcius</div>
+                        <p class="status" id="dubai_status"></p>
+                        <div class="cloud"><p id="dubai_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>Dubai, UAE</p>
@@ -236,6 +292,10 @@
                         <div class="date"> Date:<p id="newDelhi_date"> </p> </div>
                         <div class="time">Time:<p id="newDelhi_time"> </p> </div>
 
+                        <div class="weather">Weather:</div>
+                        <div class="temp"><p id="newDelhi_temp"></p>&#160celcius</div>
+                        <p class="status" id="newDelhi_status"></p>
+                        <div class="cloud"><p id="newDelhi_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>New Delhi, India</p>
@@ -251,6 +311,10 @@
                         <div class="date"> Date:<p id="bangkok_date"> </p> </div>
                         <div class="time">Time:<p id="bangkok_time"> </p> </div>
 
+                        <div class="weather">Weather:</div>
+                        <div class="temp"><p id="bangkok_temp"></p>&#160celcius</div>
+                        <p class="status" id="bangkok_status"></p>
+                        <div class="cloud"><p id="bangkok_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>Bangkok, Thailand</p>
@@ -266,6 +330,10 @@
                         <div class="date"> Date:<p id="hongKong_date"> </p> </div>
                         <div class="time">Time:<p id="hongKong_time"> </p> </div>
 
+                        <div class="weather">Weather:</div>
+                        <div class="temp"><p id="hongKong_temp"></p>&#160celcius</div>
+                        <p class="status" id="hongKong_status"></p>
+                        <div class="cloud"><p id="hongKong_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>Hong Kong, China</p>
@@ -280,6 +348,11 @@
                 <div class="tokyo-back back">
                         <div class="date"> Date:<p id="tokyo_date"> </p> </div>
                         <div class="time">Time:<p id="tokyo_time"> </p> </div>
+
+                    <div class="weather">Weather:</div>
+                    <div class="temp"><p id="tokyo_temp"></p>&#160celcius</div>
+                    <p class="status" id="tokyo_status"></p>
+                    <div class="cloud"><p id="tokyo_cloud"></p>% cloud coverage</div>
                 </div>
             </div>
             <p>Tokyo, Japan</p>
@@ -294,6 +367,11 @@
                 <div class="sydney-back back">
                         <div class="date"> Date:<p id="sydney_date"> </p> </div>
                         <div class="time">Time:<p id="sydney_time"> </p> </div>
+
+                    <div class="weather">Weather:</div>
+                    <div class="temp"><p id="sydney_temp"></p>&#160celcius</div>
+                    <p class="status" id="sydney_status"></p>
+                    <div class="cloud"><p id="sydney_cloud"></p>% cloud coverage</div>
 
                 </div>
             </div>
